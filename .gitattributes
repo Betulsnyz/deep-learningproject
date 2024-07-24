@@ -1,0 +1,2 @@
+test_data.npz filter=lfs diff=lfs merge=lfs -text
+vgg16_finetuned.h5 filter=lfs diff=lfs merge=lfs -text
