@@ -221,3 +221,4 @@ print("Fine-Tuning Sonrası Classification Report:\n", classification_report(y_t
 
 # Her sınıftan 2 görüntü göster
 show_sample_images(df, n_per_class=2)
+

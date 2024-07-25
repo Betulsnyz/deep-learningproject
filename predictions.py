@@ -21,6 +21,7 @@ datagen = ImageDataGenerator(
     shear_range=0.1
 )
 
+
 # Modeli değerlendirin
 test_generator = datagen.flow(X_test, y_test, batch_size=16, shuffle=False)
 test_loss, test_acc = model.evaluate(test_generator, steps=len(test_generator))
@@ -44,3 +45,5 @@ for idx in incorrect_indices:
     actual_label = 'kırmızı' if y_test[idx] == 0 else 'siirt'
     predicted_label = 'kırmızı' if y_pred[idx] == 0 else 'siirt'
     print(f"Index {idx}: Gerçek Etiket = {actual_label}, Tahmin Edilen Etiket = {predicted_label}")
+
+

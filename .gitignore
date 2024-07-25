@@ -1,3 +1,7 @@
 test_data.npz
 vgg16_finetuned.h5
 
+# Sanal ortam dizinleri
+venv/
+
+
