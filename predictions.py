@@ -20,7 +20,7 @@ datagen = ImageDataGenerator(
     horizontal_flip=True,
     shear_range=0.1
 )
-
+# deneme
 
 # Modeli değerlendirin
 test_generator = datagen.flow(X_test, y_test, batch_size=16, shuffle=False)
